@@ -20,12 +20,13 @@ body{
   justify-content: center;
 }
 h1{
-  font-family: 'Bungee shade';
+  font-family: 'Permanent Marker';
   text-align:center;
-  font-size: 6em;
+  font-size: 8em;
   Color:#FF39B3;
   margin-top: 5%;
   margin-bottom: 0;
+  text-shadow: 4px 2px 0px #FFffff;
 
 }
 
@@ -61,12 +62,19 @@ a{
 
 }
 .blanco{
-  background-color: white;
+  margin-top:64px;
+  background-image: url("./img/coche.png");
+  background-size:
+  /* background-color: white; */
 
 }
 .pink{
-  background-color: pink;
+
+  background-image: url("./img/coche.png");
+  /* background-color: pink; */
 }
 .blue{
-  background-color: blue;
+  margin-top:64px;
+  background-image: url("./img/coche.png");
+  /* background-color: blue; */
 }
