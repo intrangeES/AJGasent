@@ -1133,6 +1133,12 @@ width: auto;
   padding-right:62%;
 }
 
+
+.about--banner .skills a{
+  color:black;
+}
+
+
 .about--banner::before {
 /*  content: "";*/
   position: absolute;
