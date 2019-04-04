@@ -315,7 +315,27 @@ body {
   position: absolute;
   width: 100%;
   height: 100%;
+  margin-top: 15%;
 }
+
+@media(max-width: 1440px) {
+	.l-section {
+	  position: absolute;
+	  width: 100%;
+	  height: 100%;
+  		margin-top: 10%;
+	}	
+}
+
+@media (max-width: 1180px) {
+	.l-section {
+	  position: absolute;
+	  width: 100%;
+	  height: 100%;
+  		margin-top: 15%;
+	}
+}
+
 
 
 .device-notification {
@@ -663,10 +683,10 @@ body {
   -ms-flex-direction: column;
   flex-direction: row;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
+  /*-webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  align-items: center;
+  align-items: center;*/
   margin: 0 auto;
 }
 
@@ -903,9 +923,9 @@ width: auto;
   -ms-flex-direction: column;
   flex-direction: column;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
+  /*-webkit-justify-content: center;
   -ms-flex-pack: center;
-  justify-content: center;
+  justify-content: center;*/
   margin: 0 auto
 }
 
@@ -1112,9 +1132,9 @@ width: auto;
   -ms-flex-direction: column;
   flex-direction: column;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
+  /*-webkit-justify-content: center;
   -ms-flex-pack: center;
-  justify-content: center;
+  justify-content: center;*/
   margin: 0 auto
 }
 
