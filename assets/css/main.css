@@ -1078,8 +1078,8 @@ width: auto;
   }
 
   .work--lockup .slider--item-center .slider--item-image {
-    width: 300px;
-    height: 300px
+    width: 200px;
+    height: 200px
   }
 
   .work--lockup .slider--next, .work--lockup .slider--prev {
@@ -1227,8 +1227,8 @@ width: auto;
 .about--banner img {
   position: absolute;
   max-width: 75%;
-  bottom: -90px;
-  right: -118px
+  bottom: -48px;
+  right: -120px
 }
 
 .about--banner .logos {
@@ -1292,6 +1292,17 @@ width: auto;
 }
 
 @media (max-width: 767px) {
+  .about {
+    width: 90vw;
+    height: 80vh;
+  }
+  .about--banner img {
+    bottom: -127px;
+    right: 35px
+  }
+  .experiencia {
+  margin-top: 48px;
+  }
   .about--banner {
     height: 305px
   }
@@ -1322,7 +1333,7 @@ width: auto;
   }
 
   .about--banner img {
-    width: 315px
+    width: 226px
   }
 
   .about--banner .skills {
@@ -1883,4 +1894,17 @@ width: auto;
 
 #contact_menu {
   color: #ffffff;
+}
+@media (max-width: 350px) {
+
+.about{
+  font-size:10px;
+  Padding-top:23%;
+}
+.outer-nav>li {
+    font-size: 28px;
+}
+.outer-nav>li::before {
+  height: 10px;
+}
 }
