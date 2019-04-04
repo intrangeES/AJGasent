@@ -854,7 +854,7 @@ body {
 
 @media (max-width: 600px) {
   .intro--banner {
-    height: 360px
+    height: 360px;
     display:flex;
     flex-direction: column;
 
@@ -1343,7 +1343,7 @@ width: auto;
 
 @media (max-width: 600px) {
   .about--banner {
-    height: auto;
+    /*height: auto;*/
     padding-right: 10px;
     padding-left: 10px;
   }
@@ -1378,7 +1378,12 @@ width: auto;
     display: none
   }
 }
-
+@media (max-width: 679px){
+.about--banner img {
+    width: none;
+    display: none;
+  }
+}
 .contact {
   position: fixed;
   top: 0;
@@ -1895,11 +1900,18 @@ width: auto;
 #contact_menu {
   color: #ffffff;
 }
+@media (max-width: 450px) {
+  .about{
+    font-size:12px;
+    Padding-top:2%;
+  }
+
+}
 @media (max-width: 350px) {
 
 .about{
   font-size:10px;
-  Padding-top:23%;
+  Padding-top:26%;
 }
 .outer-nav>li {
     font-size: 28px;
