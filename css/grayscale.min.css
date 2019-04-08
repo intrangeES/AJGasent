@@ -99,8 +99,8 @@
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background:  url(../img/AJG_Background.jpg);
-  background:  url(../img/AJG_Background.jpg);
+  background:  url("https://raw.githubusercontent.com/intrangeES/AJGasent/master/img/AJG_background.jpg");
+  background:  url("https://raw.githubusercontent.com/intrangeES/AJGasent/master/img/AJG_background.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
