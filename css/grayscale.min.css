@@ -1,6 +1,6 @@
 
 
-*/#mainNav {
+#mainNav {
   min-height: 56px;
   background-color: #fff
 }
@@ -192,7 +192,7 @@
 }
 
 .projects-section {
-  padding: 10rem 0
+  padding: 10rem 0 1rem 0;
 }
 
 .projects-section .featured-text {
