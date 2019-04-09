@@ -197,7 +197,7 @@
 }
 
 .projects-section .featured-text {
-  padding: 2rem
+  padding: 0em 2em 2em;
 }
 
 @media (min-width:992px) {
@@ -333,6 +333,13 @@ background-position:bottom;
 padding: 19.1rem 0;
 
 }
+.masthead h1{
+  letter-spacing: .3rem;
+}
+.linea{
+  margin-top:3% !important;
+  margin-bottom:5% !important;
+}
 body {
   font-size:14px;
 }
@@ -381,6 +388,9 @@ h5 {
 font-size:0.9rem;
 padding: 8% 0 3% 0;
 }
-i {
+.icontact {
   font-size:32px;
+}
+.imgpro{
+  margin-bottom:0!important;
 }
