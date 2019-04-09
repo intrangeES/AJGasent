@@ -302,7 +302,7 @@ a {
 
 a:focus, a:hover {
   text-decoration: none;
-  color: #3c6360
+  color: #3B3493
 }
 
 .bg-black {
@@ -336,6 +336,14 @@ padding: 19.1rem 0;
 body {
   font-size:14px;
 }
+.contacuadro {
+  padding-bottom:0.1rem!important;
+  padding-top:0.1rem !important;
+}
+.cuadrocontact{
+  margin-left: 0;
+  margin-right: 0;
+}
 
 }
 
@@ -365,4 +373,14 @@ body {
 .ton3{
   padding-bottom:15%;
   padding-top:2%;
+}
+.spacevermas {
+  font-weight: bold;
+}
+h5 {
+font-size:0.9rem;
+padding: 8% 0 3% 0;
+}
+i {
+  font-size:32px;
 }
