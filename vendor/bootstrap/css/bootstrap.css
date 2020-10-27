@@ -492,8 +492,7 @@ mark,
 }
 @media (max-width: 420px) {
   .img-fluid {
-    max-width: 140%;
-    margin-left:-19%;
+    max-width: 100%;
     height: auto;
     }
 }
