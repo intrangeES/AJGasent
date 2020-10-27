@@ -54,13 +54,13 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: Open Sans,-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
   color: #212529;
   text-align: left;
-  background-color: #fff;
+  background-color: #f8f9fa;
 }
 
 [tabindex="-1"]:focus {
@@ -73,9 +73,13 @@ hr {
   overflow: visible;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: 0.5rem;
+}
+h3 {
+  margin-top: 0;
+  margin-bottom: 4rem;
 }
 
 p {
@@ -133,7 +137,7 @@ strong {
 }
 
 small {
-  font-size: 80%;
+  font-size: 100%;
 }
 
 sub,
@@ -376,10 +380,16 @@ h2, .h2 {
 
 h3, .h3 {
   font-size: 1.75rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  font-family: 'Montserrat';
 }
 
 h4, .h4 {
-  font-size: 1.5rem;
+  font-size: 3rem;
+  font-family:"Montserrat";
+  font-weight:700;
+
 }
 
 h5, .h5 {
@@ -428,7 +438,7 @@ hr {
 
 small,
 .small {
-  font-size: 80%;
+  font-size: 100%;
   font-weight: 400;
 }
 
@@ -480,6 +490,14 @@ mark,
   max-width: 100%;
   height: auto;
 }
+@media (max-width: 420px) {
+  .img-fluid {
+    max-width: 140%;
+    margin-left:-19%;
+    height: auto;
+    }
+}
+
 
 .img-thumbnail {
   padding: 0.25rem;
@@ -593,7 +611,6 @@ pre code {
   margin-right: -15px;
   margin-left: -15px;
 }
-
 .no-gutters {
   margin-right: 0;
   margin-left: 0;
@@ -2392,6 +2409,26 @@ textarea.form-control {
   line-height: 1.5;
   border-radius: 0.25rem;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+@media (max-width: 420px) {
+.btn {
+  display: inline-block;
+  font-weight: 400;
+  color: #212529;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-color: transparent;
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  font-size: 0.7rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  }
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -4584,6 +4621,13 @@ input[type="button"].btn-block {
   padding: 1.25rem;
 }
 
+@media (max-width: 567px){
+  .card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 0rem;
+  }
+}
 .card-title {
   margin-bottom: 0.75rem;
 }
@@ -6569,6 +6613,10 @@ button.bg-danger:focus {
 
 .bg-light {
   background-color: #f8f9fa !important;
+}
+
+.light-about {
+  background-color: #ffffff !important;
 }
 
 a.bg-light:hover, a.bg-light:focus,
@@ -9759,7 +9807,19 @@ button.bg-dark:focus {
 .text-center {
   text-align: center !important;
 }
-
+.white-text {
+  color: #ffffff;
+}
+.margin-bottom {
+  margin-top: -3rem;
+  margin-bottom:3rem;
+}
+@media (max-width: 767px){
+  .margin-bottom {
+    margin-top: -5rem;
+    margin-bottom:3rem;
+  }
+}
 @media (min-width: 576px) {
   .text-sm-left {
     text-align: left !important;

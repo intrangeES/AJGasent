@@ -1,8 +1,3 @@
-/*!
- * Start Bootstrap - Grayscale v5.0.6 (https://startbootstrap.com/template-overviews/grayscale)
- * Copyright 2013-2019 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-grayscale/blob/master/LICENSE)
- */
 
 #mainNav {
   min-height: 56px;
@@ -92,8 +87,8 @@
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.3)), color-stop(75%, rgba(22, 22, 22, 0.7)), to(#161616)), url("../img/antonioj_gasent_ux_ui_center.jpg");
-  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 0%, rgba(22, 22, 22, 0.7) 75%, #161616 100%), url("../img/antonioj_gasent_ux_ui_center.jpg");
+  background-color:	#000000;
+
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -101,24 +96,39 @@
 }
 
 .masthead h1 {
-  font-family: 'Varela Round';
-  font-size: 2.5rem;
-  line-height: 2.5rem;
-  letter-spacing: 0.8rem;
-  background: -webkit-linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
+  font-family: 'Montserrat';
+  font-size: 5rem;
+  font-weight: bold;
+  line-height: 5.8rem;
+  letter-spacing: 0.0rem;
+  background-color:#ffffff;
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
+  margin-bottom:72px!important;
+  margin-top:-48px!important;
 }
 
 .masthead h2 {
+  font-family: 'Montserrat';
   max-width: 20rem;
-  font-size: 1rem;
+  font-size: 1.5rem!important;
+  font-weight:bold!important;
+}
+
+.masthead h3 {
+  max-width: 20rem;
+  font-size: 1rem!important;
+  font-weight:bold!important;
+  margin-top:32px !important;
+  margin-bottom: 32px!important;
 }
 
 @media (min-width: 768px) {
   .masthead h1 {
-    font-size: 4rem;
-    line-height: 4rem;
+    font-size: 5rem;
+    line-height: 5.8rem;
+    margin-bottom:80px!important;
+    margin-top:-32px!important;
   }
 }
 
@@ -128,14 +138,25 @@
     padding: 0;
   }
   .masthead h1 {
-    font-size: 6.5rem;
-    line-height: 6.5rem;
-    letter-spacing: 0.8rem;
+    font-size: 6rem;
+    line-height: 6.9rem;
+    letter-spacing: 0rem;
+    margin-bottom:80px!important;
   }
   .masthead h2 {
     max-width: 30rem;
-    font-size: 1.25rem;
+    font-size: 1.5rem!important;
+    font-weight:bold!important;
   }
+}
+.masthead h3 {
+  max-width: 30rem;
+  font-size: 2.25rem!important;
+  font-weight:bold;
+  margin-top:100px;
+  margin-bottom: 32px!important;
+
+}
 }
 
 .btn {
@@ -151,6 +172,8 @@
 
 .btn-primary {
   background-color: #64a19d;
+  border: 0 !important;
+  padding: 1.25rem 2rem !important;
 }
 
 .btn-primary:hover {
@@ -167,27 +190,34 @@
 }
 
 .about-section {
-  padding-top: 10rem;
-  background: -webkit-gradient(linear, left top, left bottom, from(#161616), color-stop(75%, rgba(22, 22, 22, 0.9)), to(rgba(22, 22, 22, 0.8)));
-  background: linear-gradient(to bottom, #161616 0%, rgba(22, 22, 22, 0.9) 75%, rgba(22, 22, 22, 0.8) 100%);
+  padding-top: 6.5rem;
+  background-color:#ffffff;
+}
+.about-padding {
+  padding-bottom: 6.5rem;
 }
 
 .about-section p {
-  margin-bottom: 5rem;
+  margin-bottom: 1rem;
 }
 
 .projects-section {
-  padding: 10rem 0;
+  padding-top: 8rem;
 }
-
+@media (max-width: 992px) {
+  .projects-section {
+    padding-top: 4rem;
+  }
+}
 .projects-section .featured-text {
   padding: 2rem;
 }
 
 @media (min-width: 992px) {
   .projects-section .featured-text {
-    padding: 0 0 0 2rem;
-    border-left: 0.5rem solid #64a19d;
+    padding: 0 0 0 0rem;
+    margin-left:-4rem;
+
   }
 }
 
@@ -222,7 +252,7 @@
   box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
   padding: 1.25rem 2rem;
   height: auto;
-  font-family: 'Varela Round';
+  font-family: '';
   font-size: 80%;
   text-transform: uppercase;
   letter-spacing: 0.15rem;
@@ -230,23 +260,24 @@
 }
 
 .contact-section {
-  padding: 5rem 0 0;
+  padding: 11.5rem 0 0;
+  margin-top:6.2rem;
 }
 
 .contact-section .card {
   border: 0;
-  border-bottom: 0.25rem solid #64a19d;
+  border-bottom: 0rem solid #64a19d;
 }
 
 .contact-section .card h4 {
-  font-size: 0.8rem;
-  font-family: 'Varela Round';
-  text-transform: uppercase;
-  letter-spacing: 0.15rem;
+  font-size: 1.4rem;
+  font-family: 'Montserrat';
+
+  letter-spacing: 0rem;
 }
 
 .contact-section .card hr {
-  border-color: #64a19d;
+  border-color: #000000;
   border-width: 0.25rem;
   width: 3rem;
 }
@@ -274,7 +305,7 @@
 }
 
 body {
-  font-family: 'Nunito';
+  font-family: 'Open Sans';
   letter-spacing: 0.0625em;
 }
 
@@ -288,7 +319,7 @@ a:focus, a:hover {
 }
 
 .bg-black {
-  background-color: #161616 !important;
+  background-color: #000000 !important;
 }
 
 .bg-primary {
@@ -301,4 +332,18 @@ a:focus, a:hover {
 
 footer {
   padding: 5rem 0;
+}
+
+@media (max-width: 420px){
+  .masthead h1 {
+  font-family: 'Montserrat';
+  font-size: 3.5rem;
+  font-weight: bold;
+  line-height: 4.2rem;
+  letter-spacing: 0.0rem;
+  background-color:#ffffff;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  margin-bottom:72px!important;
+  margin-top:-48px!important;
 }
